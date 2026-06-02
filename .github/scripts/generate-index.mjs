@@ -305,15 +305,15 @@ const out = `<!doctype html>
     <header>
       <div class="title">
         <h1>Pages of Xiangbo</h1>
-        <div class="sub">A simple index of files in this repo (auto-generated). Root <code>index.html</code> is hidden; subfolder <code>index.html</code> is listed.</div>
+        <div class="sub">Xiangbo的文件页面分享站。网址为：https://page.xiangbo.net/</div>
       </div>
       <div class="pill">Generated at ${now}</div>
     </header>
 
     <div class="card">
       <div class="tips">
-        <span>Tip: click folders to collapse/expand.</span>
-        <span>Tip: share a page like <code>/abc.html</code> or <code>/ai/</code>.</span>
+        <span>提示：可以点击目录名称或文件名称。</span>
+       
       </div>
       ${body}
       <footer>© Xiangbo • Served by Cloudflare Pages</footer>
