@@ -324,4 +324,4 @@ const out = `<!doctype html>
 `;
 
 fs.writeFileSync(OUTPUT_FILE, out, "utf8");
-console.log(\`Generated \${OUTPUT_FILE}\`);
+console.log("Generated " + OUTPUT_FILE);
